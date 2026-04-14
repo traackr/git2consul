@@ -2,7 +2,7 @@
 
 set -o pipefail
 
-bin=$(npm bin)
+bin=./node_modules/.bin
 mocha_args='--reporter spec -t 10000 test'
 
 if [ "$1" == "cov" ]; then
