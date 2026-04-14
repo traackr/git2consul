@@ -11,8 +11,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Cimpress-MCP/git2consul.git"
+    "url": "git://github.com/Traackr/git2consul.git"
   },
+  "engines": {
+    "node": ">=24"
+  },
+  "packageManager": "pnpm@10.32.1",
   "dependencies": {
     "body-parser": "~1.4.3",
     "bunyan": "1.1.3",
